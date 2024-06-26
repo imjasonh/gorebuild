@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
     - uses: actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe # v4.1.0
     - run: |
-        go run golang.org/x/build/cmd/gorebuild@v0.0.0-20230825202850-d75d44855ad1 -p=4
+        go run golang.org/x/build/cmd/gorebuild@v0.0.0-20240620195332-f780df971d6e -p=4
